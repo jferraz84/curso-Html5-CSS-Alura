@@ -1,10 +1,16 @@
 
 body {
-     background-color: #CCCCCC;
+     
     }
 
 #banner {
     width: 100%;
+}
+
+   /*Esse .principal é uma classe */
+.principal {
+    background:#CCCCCC ;
+    padding: 30px;
 }
 
 h1 {
@@ -18,8 +24,31 @@ p {
     font-size: 20px;
 }
 
-
 em strong {
     color: #FF0000;
     }
 
+    /*Esse .itens é uma classe */
+.itens {
+    font-style: italic;
+}
+
+    /*Esse .beneficios é uma classe */
+.beneficios {
+    background: #FFFFFF ;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
