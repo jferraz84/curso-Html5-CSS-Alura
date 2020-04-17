@@ -33,6 +33,14 @@ nav a {
     
 }
 
+/* Essa parte vai controlar a ação que o mouse
+     vai ter na pagina quando passar pelo itens do menu*/
+nav a:hover {
+     color: #c78c19;
+     text-decoration: underline;
+
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -50,6 +58,21 @@ nav a {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+
+/* Essa parte vai controlar a ação que o mouse
+     vai ter na pagina quando passar pelo itens dos SERVIÇOS*/
+.produtos li:hover {
+    border-color:#c78c19;
+    
+}
+
+.produtos li:active {
+    border-color:#088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
 }
 
 .produtos h2 {
