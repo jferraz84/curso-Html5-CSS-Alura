@@ -1,8 +1,5 @@
 
-body {
-     
-    }
-
+/*Esse #banner é um IDENTIFICADOR */
 #banner {
     width: 100%;
 }
@@ -13,7 +10,11 @@ body {
     padding: 30px;
 }
 
-h1 {
+.titulo-principal {
+    padding-left: 20;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -39,9 +40,6 @@ em strong {
     padding: 20px;
 }
 
-h2 {
-    text-align: center;
-}
 ul {
     display: inline-block;
     vertical-align: top;
