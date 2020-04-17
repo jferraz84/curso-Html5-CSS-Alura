@@ -67,10 +67,13 @@ nav a:hover {
     
 }
 
+/* Essa parte vai controlar a mudança de cor quando clicar o mouse nos itens dos SERVIÇOS*/
 .produtos li:active {
     border-color:#088c19;
 }
 
+/* Essa parte vai controlar a ação que o mouse
+     vai ter no tamanho da fonte quando passar pelo itens dos SERVIÇOS*/
 .produtos li:hover h2{
     font-size: 35px;
 }
@@ -88,4 +91,17 @@ nav a:hover {
 
 .produto-descricao {
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyrigth {
+    color: #FFFFFF;
+    font-size: 13PX;
+    margin: 20px;
+    
 }
